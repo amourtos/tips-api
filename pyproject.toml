@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tips-api"
+version = "0.1.0"
+description = "API for tips web application"
+authors = ["amourtos <amourtos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.9"
+python-dotenv = "^0.19.2"
+stripe = "^2.63.0"
+
+[tool.poetry.dev-dependencies]
+djangorestframework = "^3.12.4"
+autopep8 = "^1.6.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
